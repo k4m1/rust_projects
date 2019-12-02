@@ -21,7 +21,7 @@ fn main() {
 
         println!("you guessed {}.", guess);
 
-        println!("the secret number is {}", sec_num);
+        // println!("the secret number is {}", sec_num);/
 
         match guess.cmp(&sec_num) {
             Ordering::Less => println!("Oi that number is too weee"),

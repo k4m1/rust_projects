@@ -1,10 +1,11 @@
 fn main() {
 
-    let mut number = 3;
+    let a = [1,2,3,4,5];
 
-    while number != 0 {
-        println!("the number is {}", number);
-        number -= 1;
+    let mut count = 0;
+
+    while count < 5 {
+        println!("this is the value of index {} in the array {}", count, a[count]);
+        count += 1
     }
-    println!("Lift off!");
 }

@@ -1,10 +1,8 @@
 fn main() {
 
-    let a = [1,2,3,4,5];
-
-    for element in a.iter() {
-        println!("the value of the element is {}", element);
+    for number in (1..10).rev() {
+        println!("{}", number);
     }
 
-    println!("we have finished iterating bois");
+    println!("Lift off :D");
 }

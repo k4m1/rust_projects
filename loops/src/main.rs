@@ -2,10 +2,9 @@ fn main() {
 
     let a = [1,2,3,4,5];
 
-    let mut count = 0;
-
-    while count < 5 {
-        println!("this is the value of index {} in the array {}", count, a[count]);
-        count += 1
+    for element in a.iter() {
+        println!("the value of the element is {}", element);
     }
+
+    println!("we have finished iterating bois");
 }

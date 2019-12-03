@@ -1,0 +1,1 @@
+/Users/bebop/Documents/Development/rust_projects/rust_projects/variables_examples/target/debug/variables_examples: /Users/bebop/Documents/Development/rust_projects/rust_projects/variables_examples/src/main.rs

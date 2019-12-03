@@ -6,6 +6,12 @@ fn main() {
     // exmaple_with_multiparams(42, "howdy");
     let t = example_with_return_label();
     println!("the value of t is {}", t);
+    let x = 10;
+    println!("the value of x is {}", x);
+    plus_one(x);
+    println!("the value of x is {}", x);
+
+
 }
 
 fn example_function() {
@@ -22,6 +28,10 @@ fn example_with_params(x: i32) {
 
 fn example_with_return_label() -> i32 {
     420
+}
+
+fn plus_one(x: i32) -> i32 {
+    x + 1
 }
 
 
